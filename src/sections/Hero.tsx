@@ -9,7 +9,7 @@ function Hero() {
     <motion.div 
         initial="hidden"
         whileInView="show"
-        className={`w-full h-full flex flex-col gap-4 justify-between items-center ${styles.yPaddings}`}
+        className={`w-full h-full flex flex-col gap-4 justify-between text-center items-center ${styles.yPaddings}`}
       >   
         <div>
           <motion.h1  
