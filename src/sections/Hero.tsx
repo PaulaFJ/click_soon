@@ -18,7 +18,7 @@ function Hero() {
             EM BREVE
           </motion.h1>
 
-          <motion.h1 variants={textVariant(2)} className="lg:text-6xl md:text-4xl text-3xl drop-shadow-lg">GRANDES NOVIDADES</motion.h1>
+          <motion.h1 variants={textVariant(2)} className="lg:text-xl md:text-4xl text-3xl drop-shadow-lg">GRANDES NOVIDADES</motion.h1>
         </div>
 
         <motion.ul
@@ -37,18 +37,6 @@ function Hero() {
 
           </motion.li>
 
-          <motion.li
-            whileHover={{
-              scale: 1.2,
-              transition: { duration: 1 },
-            }}
-            whileTap={{ scale: 0.9 }}>
-
-            <a href="">
-              <FacebookLogo size={24} color="grey" />
-            </a>
-
-          </motion.li>          
         </motion.ul>
       </motion.div>  
   )
